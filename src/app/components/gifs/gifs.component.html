@@ -2,8 +2,8 @@
     <div class="gif" *ngFor="let gif of gifs">
         <img [src]="gif.images.original.url" alt="gifs">
     </div>
-    <div class="button" (click)="getMore()">
-        <button class="btn">
+    <div class="button">
+        <button class="btn" (click)="getMore()">
             Show More
         </button>
     </div>

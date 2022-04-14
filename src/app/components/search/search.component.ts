@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from 'src/app/data.service';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { NgForm } from '@angular/forms';
 
 
@@ -10,6 +11,8 @@ import { NgForm } from '@angular/forms';
 })
 export class SearchComponent implements OnInit {
   // gifs: any[] = [];
+  searchTerm!: string;
+  faMagnifyingGlass = faMagnifyingGlass;
 
   constructor(private dataService: DataService ) { }
 
@@ -25,3 +28,4 @@ export class SearchComponent implements OnInit {
   }
   }
 }
+

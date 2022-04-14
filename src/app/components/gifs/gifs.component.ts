@@ -31,9 +31,13 @@ export class GifsComponent implements OnInit {
     });
   }
 
+// function to get more gifs on button click
   getMore(){
-    console.log("me");
-    
+    return this.http.get(`https://api.giphy.com/v1/gifs/trending?api_key=${environment.API_KEY}&limit=20&rating=g`)
+    .subscribe((response: any) => {
+      // set JSON response to the gifs array
+            this.gifs = response.data;
+    });
   }
 
 }
