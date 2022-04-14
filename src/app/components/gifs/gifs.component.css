@@ -1,0 +1,41 @@
+.gifs{
+    position: absolute;
+    left: 10.2%;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.gif img{
+    max-width: 260px;
+    max-height: 200px;
+    border-radius: 5px;
+}
+
+.gif{
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    border: none;
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    transform: translate(30%, 125%);
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+
+
+ 

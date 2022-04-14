@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+nav{
+    position: relative;
+    font-family: 'Bungee', cursive;
+    background-color: #121212;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    font-size: 40px;
+}
+
+nav .logo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 70px;
+    width: 240px;
+}
+
+nav .ukr{
+    left: 0;
+    right: 0;
+    position: absolute;
+    transform: translate(19px,120px);
+}

@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Passion+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all ease 0.5s;
+    font-family: 'Bungee', cursive;
+}
+
+
+body{
+    background-color: #121119;
+    padding: 0 9%;
+}
