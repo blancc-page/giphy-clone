@@ -1,27 +1,42 @@
-# GiphyClone
+# QUOTES (please check alt branch)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
+> An application where users should be able to create quotes and have those quotes voted on whether they are terrible or are inspirational. 
 
-## Development server
+## :hammer: Built With
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- HTML, CSS, JS/TS
+- Angular
 
-## Code scaffolding
+## :link: Link to web app(Deployment Link):
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+https://blancc-page.github.io/giphy-clone/
 
-## Build
+### :computer: Setup
+To get a local copy up and running follow these simple example steps.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- open your terminal, and run 'git clone https://github.com/blancc-page/giphy-clone' to clone the repository to your computer  
+- cd into the project folder
+- run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## :trollface: Authors
 
-## Running end-to-end tests
+👤 **Moses Muta**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- GitHub: [@githubhandle](https://github.com/blancc-page)
+- LinkedIn: [LinkedIn](<linkedIn link>)
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## :muscle: Show your support
+
+    Please give a⭐️if you love this project.
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
