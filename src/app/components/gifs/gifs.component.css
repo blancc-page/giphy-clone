@@ -37,5 +37,40 @@
     text-decoration: none;
   }
 
+  .search{
+    transform: translateY(50px);
+    max-width: 93.7%;
+    margin: 8px 0 10px 18px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 200px;
+}
+
+.search input{
+    height: 50px;
+    width: 1040px;
+    padding: 8px 16px;
+    margin-top: 0;
+}
+
+.search button{
+    position: absolute;
+    background: #fc00ff;
+    background: linear-gradient(to right, #00dbde, #fc00ff);
+    border: none;
+    color: #ffffff;
+    right: -3px;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    font-size: 22px;
+}
+
+.search button:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+
 
  
