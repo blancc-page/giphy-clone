@@ -1,6 +1,6 @@
-# QUOTES (please check alt branch)
+# GIPHY-CLONE
 
-> An application where users should be able to create quotes and have those quotes voted on whether they are terrible or are inspirational. 
+> A UI clone of https://giphy.com/, using the giphyAPI and routing. 
 
 ## :hammer: Built With
 
