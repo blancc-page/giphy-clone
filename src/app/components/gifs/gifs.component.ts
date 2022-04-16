@@ -1,8 +1,6 @@
 import { Component, OnInit, Output } from '@angular/core';
 import { DataService } from 'src/app/data.service';
 import { HttpClient } from '@angular/common/http';
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { environment } from 'src/environments/environment';
 import { NgForm } from '@angular/forms';
@@ -15,8 +13,6 @@ import { NgForm } from '@angular/forms';
 })
 export class GifsComponent implements OnInit {
 // add fontawsome icons
-  faChevronRight = faChevronRight;
-  faChevronLeft = faChevronLeft;
   faMagnifyingGlass = faMagnifyingGlass;
 
 // create an array for gifs 
